@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+   , initial-scale=1.0"
+    />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/shopping.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          <h1>Sizes:</h1>
+          <!-- buttons -->
+          <div class="buttons">
+            <button type="button" class="btn btn-outline-dark button-in">
+              XS
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              S
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              M
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              ML
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              L
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              XL
+            </button>
+            <button type="button" class="btn btn-outline-dark button-in">
+              XXL
+            </button>
+            <br />
+            <br />
+            <p>Leave a Star on Github if this repository was useful :)</p>
+            <div class="second-button">
+              <button>&#9733; Star</button> <button>848</button>
+            </div>
+
+            <!-- button end -->
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="row">
+            <!-- pseudo nav -->
+            <div class="col-md-6"><p>16 product(s) found</p></div>
+            <div class="col-md-6 dropdown-end">
+              <p class="p-2">Order by</p>
+              <div class="dropdown dropups">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Select
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+            <!-- nav end -->
+          </div>
+          <!-- first row -->
+          <div class="row">
+            <div class="col-md-3">
+              <!-- free shipping -->
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="/Images/Cat-Tee-Black-T-shirt.4edb5154.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Cat Tee Black T-Shirt</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>10</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩1.21</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/DarkThug.8da09d0b.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Dark Thug Blue-Navy T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>29</span><small>.45</small>
+                  </p>
+                  <p class="second-par">
+                    or 5 x<span class="second-span">﹩5.89</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/Sphynx.b047a598.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Sphynx Tie Dye Wine T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>9</span><small>.00</small>
+                  </p>
+                  <p class="second-par">
+                    or 3 x<span class="second-span">﹩3.00</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/Skuul.cb8727d9.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Skuul</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>14</span><small>.00</small>
+                  </p>
+                  <p class="second-par">
+                    or 5 x<span class="second-span">﹩2.80</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="row">
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/WineSkuul.c9fb4794.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Wine Skul T-Shirt</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>13</span><small>.25</small>
+                  </p>
+                  <p class="second-par">
+                    or 3 x<span class="second-span">﹩4.42</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/Cat-Tee-Black-T-shirt(2).08690d27.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Cat Tee Black T-Shirt</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>10</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩1.21</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/SphynxTieDyeGreyT-Shirt.7bbbf40e.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Sphynx Tie Dye grey T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>10</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩1.21</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/DangerKnife.16d87c7b.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Danger Knife Grey</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>14</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 7 x<span class="second-span">﹩2.13</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Third row -->
+          <div class="row">
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/WhiteDGK.76d63530.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">White DGK Script Tee</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>14</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 7 x<span class="second-span">﹩2.13</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/BornOnTheStreet.a5707e84.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Born on The Streets</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>25</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 12 x<span class="second-span">﹩2.16</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/Tso3D.6ffa45d5.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Tso 3D Short Sleeve T-Shirt A
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>10</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩1.21</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/ManTieDie.a998813f.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Man Tie Dye Cinza Grey T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>49</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩1.21</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fourth row -->
+          <div class="row">
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/CrazyMonkey.9d1a7699.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    Crazy Monkey Black T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>22</span><small>.50</small>
+                  </p>
+                  <p class="second-par">
+                    or 4 x<span class="second-span">﹩5.63</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/Tso3DBlack.d6803810.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Tso 3D Black T-Shirt</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>18</span><small>.70</small>
+                  </p>
+                  <p class="second-par">
+                    or 4 x<span class="second-span">﹩4.67</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/CrazyMonkeyGrey.1fd27374.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1">Crazy Monkey Grey</h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>134</span><small>.90</small>
+                  </p>
+                  <p class="second-par">
+                    or 5 x<span class="second-span">﹩26.98</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div
+                class="card text-center"
+                id="card-border"
+                style="width: 18rem"
+              >
+                <p class="free-shipping">Free shipping</p>
+                <img
+                  src="https://azmadeu.github.io/react-shopping-cart/static/media/OnTheStreets.5a5265ad.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title card-h1 yellow-lower">
+                    On The Streets Black T-Shirt
+                  </h5>
+                  <div class="yellow-line"></div>
+                  <p class="card-text card-par">
+                    <small>﹩</small><span>49</span><small>.00</small>
+                  </p>
+                  <p class="second-par">
+                    or 9 x<span class="second-span">﹩5.44</span>
+                  </p>
+                  <a href="#" class="btn btn-primary card-button"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
